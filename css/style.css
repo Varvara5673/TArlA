@@ -1,0 +1,163 @@
+
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #FFC3A0;
+    display: flex;
+    height: 612px;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+    height: auto;
+}
+
+.text{
+    width: 34%;
+}
+
+@font-face{
+    font-family: 'zagolovok';
+    src: url('../fonts/Roboto/Roboto_Condensed-ExtraBold.woff2') format('woff2');
+}
+
+h1{
+    font-family: 'zagolovok', serif;
+}
+
+@font-face{
+    font-family: 'paragraf';
+    src: url(../fonts/DMSans_18pt-Black.woff2)
+}
+
+p{
+    font-family: 'paragraf';
+    font-weight:lighter;
+}
+
+button{
+    width: 250px;
+    box-sizing:border-box ;
+    height:50px ;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    font-family: 'zagolovok';
+}
+
+#how{
+    background-color: #F5EDE7;
+    width: 100%;
+}
+
+.cards .img{
+    width: 99px;
+    height: 99px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card{
+     width: 20%
+    
+}
+#how button{
+     background-color: transparent;
+     border: 1px solid rgb(0, 8, 255);
+     color: blue;
+     display: block;
+     margin: 0 auto;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+#wrapper{
+    background-color: #F5EDE7;
+}
+
+
+.bun{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:repeat(3, 1fr );
+    grid-column-gap:24px ;
+    grid-row-gap: 24px;
+}
+
+.bun-card button{
+     border: 1px solid rgb(0, 8, 255);
+     color: blue;
+}
+
+#about-us{
+    display: flex;
+
+}
+
+.item{
+    margin: 24px;
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+#hleb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    width: 100%;
+    margin: 0
+}
+
+.hleb-img img {
+    width: 680px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.hleb-text {
+    max-width: 700px;
+}
+
+.hleb-text h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#hleb button{
+     border: 1px solid blue;
+    background-color: transparent;
+    color: blue;
+    display: block;
+}
+
